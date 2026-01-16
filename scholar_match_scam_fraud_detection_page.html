@@ -4,47 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ScholarMatch – Scholarship Scam & Fraud Checker</title>
-  <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
-  <script src="https://files.bpcontent.cloud/2026/01/15/02/20260115020158-E3DV1ELZ.js" defer></script>
-  <link rel="stylesheet" href="css/navbar.css">
-  <style>
-    body { font-family: 'Inter', Arial, sans-serif; background:#f7f9fc; margin:0; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
-    header { background:#2563EB; color:white; padding:24px 16px; }
-    h1 { margin:0 0 6px 0; }
-    .card { background:white; border-radius:18px; padding:20px; box-shadow:0 8px 24px rgba(0,0,0,0.06); margin-top:16px; }
-    textarea { width:100%; min-height:170px; border-radius:14px; border:1px solid #d1d5db; padding:12px; resize:vertical; font-family:inherit; }
-    button { padding:10px 18px; border-radius:14px; border:none; background:#2563eb; color:white; font-weight:600; cursor:pointer; }
-    button:hover { opacity:.9; }
-    .result { margin-top:16px; padding:12px 14px; border-radius:14px; background:#eef2ff; }
-    ul { margin-top:8px; }
-    .risk-high { color:#b91c1c; font-weight:700; }
-    .risk-medium { color:#b45309; font-weight:700; }
-    .risk-low { color:#15803d; font-weight:700; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <link rel="stylesheet" href="css/styles.css">
-  <header class="header" role="banner">
+  <header>
     <div class="container">
-        <div class="header-content">
-            <a href="https://raelyn23050595.github.io/ScholarMatch/" class="logo">
-                <img src="images/logo.png" alt="ScholarMatch Logo" class="logo-icon">
-                <h1 class="logo-text">ScholarMatch</h1>
-            </a>
-            <nav class="nav" role="navigation" aria-label="Main navigation">
-                <ul class="nav-list">
-                    <li><a href="https://23018472-tunaungmyin.github.io/C240_AungMyin/" class="nav-link">Search Scholarships<br>(Aung Myin)</a></li>
-                    <li><a href="https://raelyn23050595.github.io/ScholarMatch_Raelyn/" class="nav-link">Scholarship Comparison<br>(Raelyn)</a></li>
-                    <li><a href="https://tohwangxin.github.io/C240_FA/" class="nav-link">Scholarship Application Guidance<br>(WangXin)</a></li>
-                    <li><a href="https://scholarmatch-a13r.onrender.com/" class="nav-link">Ee Weng</a></li>
-                    <li><a href="https://23026439-ralph.github.io/C240-FA/" class="nav-link">Scholarship Fraud Detetction (Ralph)</a></li>
-                </ul>
-            </nav>
-        </div>
+      <h1>Scholarship Scam & Fraud Detection</h1>
+      <p>Paste any scholarship message or website text below. We will flag common scam signals.</p>
     </div>
-</header>
- 
+  </header>
 
   <div class="container">
     <div class="card">
@@ -54,6 +22,21 @@
       <button id="checkBtn">Check for Scam Signals</button>
 
       <div id="analysis" class="result" style="display:none"></div>
+      <style>
+      body { font-family: 'Inter', Arial, sans-serif; background:#f7f9fc; margin:0; }
+      .container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+      header { background:#0f172a; color:white; padding:24px 16px; }
+      h1 { margin:0 0 6px 0; }
+      .card { background:white; border-radius:18px; padding:20px; box-shadow:0 8px 24px rgba(0,0,0,0.06); margin-top:16px; }
+      textarea { width:100%; min-height:170px; border-radius:14px; border:1px solid #d1d5db; padding:12px; resize:vertical; font-family:inherit; }
+      button { padding:10px 18px; border-radius:14px; border:none; background:#2563eb; color:white; font-weight:600; cursor:pointer; }
+      button:hover { opacity:.9; }
+      .result { margin-top:16px; padding:12px 14px; border-radius:14px; background:#eef2ff; }
+      ul { margin-top:8px; }
+      .risk-high { color:#b91c1c; font-weight:700; }
+      .risk-medium { color:#b45309; font-weight:700; }
+      .risk-low { color:#15803d; font-weight:700; }
+  </style>
     </div>
   </div>
 
@@ -129,13 +112,13 @@
       `;
     });
   </script>
-
+  
   <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
             <p class="footer-text">&copy; 2026 AI Scholarship Finder</p>
         </div>
     </footer>
-    
+
 </body>
 </html>
